@@ -1,8 +1,8 @@
 import Shopnav from "./Shopnav";
-import { ChevronRight, Facebook, FacebookIcon, Linkedin, LinkedinIcon, Star, X, XIcon } from "lucide-react";
+import { ChevronRight, FacebookIcon, LinkedinIcon, Star, XIcon } from "lucide-react";
 import Image from "next/image";
 import { Button } from "./ui/button";
-import Footer from "./Footer";
+
 
 export default function Singlepro() {
   return (
@@ -161,7 +161,7 @@ export default function Singlepro() {
       <div className="grid grid-cols-3 ">
       <div className="flex flex-col">
       <div className=" justify-end">
-          {/* Change path as per image folder */}
+          
 
             <div>
               <Image
@@ -275,12 +275,14 @@ export default function Singlepro() {
               <span>Tags</span>
               <span>: Sofa, Chair, Home, Shop</span>
             </p>
-            <div className="flex flex-row">
-              <p className=" mt-3">
-                <span>Share</span>
-                <span>
-                  : <FacebookIcon />
-                </span>{" "}
+            <div className="mt-4 ">
+              
+                
+                <div className="flex gap-x-3">
+                <span>Share :</span>
+                {/* <span className="">
+                   <FacebookIcon className=""/>
+                </span>{" "} */}
                 <span>
                   <LinkedinIcon />
                 </span>
@@ -288,7 +290,11 @@ export default function Singlepro() {
                   {" "}
                   <XIcon />
                 </span>
-              </p>
+                <span className="">
+                   <FacebookIcon className=""/>
+                </span>{" "}
+                </div>
+              
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Shopnav from "./Shopnav";
 import Image from "next/image";
 import { Button } from "./ui/button";
-import Footer from "./Footer";
+
 import Reuse_comp from "./Reuse_comp";
 
 export default function Cart() {
@@ -25,7 +25,7 @@ export default function Cart() {
             <span className="inline-block">
               <ArrowRight className="pt-2" />
             </span>
-            <span className="inline-block font-light">Shop</span>
+            <span className="inline-block font-light">Cart</span>
           </p>
         </div>
         <div>

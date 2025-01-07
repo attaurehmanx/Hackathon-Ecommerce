@@ -30,7 +30,7 @@ export default function Contact() {
             <span className="inline-block">
               <ArrowRight className="pt-2" />
             </span>
-            <span className="inline-block font-light">Shop</span>
+            <span className="inline-block font-light">Contact</span>
           </p>
         </div>
         <div>

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Footer from "./Footer"
+
 import Reuse_comp from "./Reuse_comp"
 
 

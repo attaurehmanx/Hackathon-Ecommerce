@@ -1,10 +1,10 @@
-import { ArrowRight, Dot } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Shopnav from "./Shopnav";
 import { Button } from "./ui/button";
-import { Checkbox } from "./ui/checkbox";
+
 import { Input } from "./ui/input";
-import Footer from "./Footer";
+
 import Reuse_comp from "./Reuse_comp";
 
 export default function Checkout() {
@@ -26,7 +26,7 @@ export default function Checkout() {
             <span className="inline-block">
               <ArrowRight className="pt-2" />
             </span>
-            <span className="inline-block font-light">Shop</span>
+            <span className="inline-block font-light">Checkout</span>
           </p>
         </div>
         <div>
@@ -45,9 +45,9 @@ export default function Checkout() {
             <h1 className="text-4xl font-semibold">Belling details</h1>
             <div className="mt-5 flex">
               <label className="text-sm">First Name</label>
-              <Input className="w-[120px] h-12 border border-[#9F9F9F] mt-4" />
-              <label className="text-sm">Last Name</label>
-              <Input className="w-[120px] h-12 border border-[#9F9F9F] mt-4" />
+              <Input className="w-[120px] h-12 border border-[#9F9F9F] mt-5 -ml-16" />
+              <label className="text-sm ml-10">Last Name</label>
+              <Input className="w-[120px] h-12 border border-[#9F9F9F] mt-5 -ml-16 " />
             </div>
             <div className="mt-5">
               <label className="text-sm">Company Name (Optional)</label>

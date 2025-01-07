@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Shopnav from "./Shopnav";
 import { ArrowRight, Calendar, Search, Tag, User } from "lucide-react";
-import Footer from "./Footer";
+
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import Reuse_comp from "./Reuse_comp";
@@ -25,7 +25,7 @@ export default function Blog() {
             <span className="inline-block">
               <ArrowRight className="pt-2" />
             </span>
-            <span className="inline-block font-light">Shop</span>
+            <span className="inline-block font-light">Blog</span>
           </p>
         </div>
         <div>

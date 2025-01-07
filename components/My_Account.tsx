@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Input } from "./ui/input";
 import { Checkbox } from "./ui/checkbox";
 import { Button } from "./ui/button";
-import Footer from "./Footer";
+
 import Reuse_comp from "./Reuse_comp";
 
 export default function My_Account() {
@@ -26,7 +26,7 @@ export default function My_Account() {
             <span className="inline-block">
               <ArrowRight className="pt-2" />
             </span>
-            <span className="inline-block font-light">Shop</span>
+            <span className="inline-block font-light">My_Account</span>
           </p>
         </div>
         <div>

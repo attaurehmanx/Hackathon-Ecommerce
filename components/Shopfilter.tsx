@@ -1,4 +1,4 @@
-import { AlignHorizontalSpaceAround, AlignVerticalSpaceAround, Filter, FilterIcon, FilterXIcon, LayoutGrid, ListFilter, LucideFilter, Menu, SlidersHorizontal } from "lucide-react";
+import { AlignVerticalSpaceAround, LayoutGrid, SlidersHorizontal } from "lucide-react";
 
 
 export default function Shopfilter() {
